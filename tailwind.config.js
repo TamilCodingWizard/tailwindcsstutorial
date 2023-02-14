@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display:['Cinzel']
+        display:['Cinzel'],
+        body:['Poppins']
       }
     },
   },
