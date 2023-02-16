@@ -35,7 +35,7 @@ const Appbar = () => {
             </button>
           </div>
         </div>
-        <div className={`flex  justify-end ${open ? "block" : "hidden"}`}>
+        <div className={`flex md:block justify-end ${open ? "block" : "hidden"}`}>
           <ul className="md:flex md:space-x-8 space-y-8 md:space-y-0">
             <li className=" menu border-b-4">
               <a href="#" className="font-body">
