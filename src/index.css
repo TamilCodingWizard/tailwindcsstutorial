@@ -10,4 +10,8 @@
     @apply text-slate-500 text-lg hover:bg-green-500 px-4 py-2 hover:rounded-full hover:text-white transform ease-in-out duration-200 border-green-500
 }
 
+.btnStyle {
+    @apply font-body border border-slate-300 py-3 px-16 rounded-full transform hover:scale-110 duration-100 my-3 md:my-0 m-2
+}
+
 
