@@ -11,7 +11,7 @@
 }
 
 .btnStyle {
-    @apply font-body border border-slate-300 py-3 px-16 rounded-full transform hover:scale-110 duration-100 my-3 md:my-0 m-2
+    @apply font-body border border-slate-300 py-2 px-16 rounded-full transform hover:scale-110 duration-100 my-3 md:my-0 m-2
 }
 
 
