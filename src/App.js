@@ -1,9 +1,18 @@
+import Appbar from "./components/Appbar";
+import Filters from "./components/Filters";
+import Footer from "./components/Footer";
+import Items from "./components/Items";
+import SeasonSpecials from "./components/SeasonSpecials";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Appbar/>
+      <Filters/>
+      <Items/>
+      <SeasonSpecials/>
+      <Footer/>
+    </>
   );
 }
 
